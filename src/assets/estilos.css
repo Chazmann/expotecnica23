@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&family=Unica+One&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+.unica{
+  font-family: 'Unica One', cursive;
+}
+.titilium{
+  font-family: 'Titillium Web', sans-serif;
+}
+.fw200{font-weight: 200;}
+.fw700{font-weight: 700;}
+
   .backAnimated{
     z-index: 1;
     position: relative;
     width: 100%;
-    height: 70vh;
-    background: #3586ffdf;
+    min-height: calc(100vh - 180px);
+    background: #3586ff;
     overflow: hidden;
     display: grid;
     place-items: center;
@@ -66,3 +76,5 @@
       background-position-x: -1000px; 
     }
   }
+
+

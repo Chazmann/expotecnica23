@@ -1,13 +1,40 @@
-footer{
+footer {
     position: sticky;
     bottom: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
+    color: #183766;
     text-align: center;
-    width: 100%!important;
+    width: 100% !important;
     font-size: 12pt;
-    padding: 0 10%;
+    padding: 20px 10%;
     display: flex;
     align-items: center;
     gap: 10px;
+    height: 100px;
+    
 
 }
+
+
+.expo {
+    background-color: rgba(255, 0, 0, 0);
+    width: 80%;
+    line-height: 100px;
+
+    & h1 {
+        font-size: 100px;
+        color: white
+    }
+
+    & h1:last-child {
+        font-size: 180px;
+        line-height: 140px;
+        color: white
+    }
+}
+
+.datos{
+    width: calc(100% - 60px);
+    display: flex;
+justify-content: space-between;
+align-items: center;}
