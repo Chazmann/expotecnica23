@@ -1,4 +1,50 @@
-header {background: #3586ffdf;
-    padding: 10px 10%;
+header {background: #3586ff;
+    padding: 15px 10%;
 display: flex;
-align-items: center;}
+align-items: center;
+position: sticky;
+top: 0;
+z-index: 10;}
+.hover:hover{
+    filter: drop-shadow(0 0 15px white);
+    cursor: pointer;
+   
+}
+
+.animado{
+    transition: all 0.2s ease-in-out;
+    animation: animacion 5s infinite;
+    
+ 
+   }
+@keyframes animacion {
+    0% {
+        transform: rotate(0deg);
+       
+        filter: drop-shadow(0 0 0px white);
+    }
+    15% {
+        transform: rotate(359deg);
+        filter: drop-shadow(0 0 15px white);
+    }
+    16% {
+        transform: rotate(360deg);
+    }
+    30%{
+        filter: drop-shadow(0 0 0px white);
+    }
+    45%{
+        filter: drop-shadow(0 0 15px white);
+    }
+    60%{
+        filter: drop-shadow(0 0 0px white);
+    }
+    75%{
+        filter: drop-shadow(0 0 15px white);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+}
