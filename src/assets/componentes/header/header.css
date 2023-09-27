@@ -32,6 +32,9 @@ header {
 
 
 }
+.fecha {
+    font-size: 1.8em!important;
+}
 
 @keyframes animacion {
     0% {
@@ -70,4 +73,16 @@ header {
     }
 
 
+}
+
+
+@media screen and (orientation: portrait) {
+    .fecha {
+        font-size: 1.2em!important;
+    }
+    footer h2{
+        font-size: 1em!important;
+    }
+
+    
 }
