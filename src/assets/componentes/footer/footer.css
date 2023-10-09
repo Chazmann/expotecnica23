@@ -19,16 +19,17 @@ footer {
 .expo {
     background-color: rgba(255, 0, 0, 0);
     width: 80%;
-    line-height: 100px;
+    line-height: 90px;
+    height: 380px;
 
     & h1 {
-        font-size: 100px;
+        font-size: 80px;
         color: white
     }
 
     & h1:last-child {
-        font-size: 180px;
-        line-height: 140px;
+        font-size: 140px;
+        line-height: 110px;
         color: white
     }
 }

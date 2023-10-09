@@ -9,7 +9,7 @@ export const Header = () => {
         <img className="hover" src={logotexto} alt="" height={30} />
         </div>
         <div className="fecha unica white">
-          07.10.23 | 10hs a 16hs
+          28.10.23 | 10hs a 16hs
         </div>
     </header>
   )

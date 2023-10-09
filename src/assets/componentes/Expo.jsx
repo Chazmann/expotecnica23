@@ -1,5 +1,6 @@
-import { Footer } from "./componentes/footer/footer"
-import { Header } from "./componentes/header/Header"
+import { Footer } from "./footer/footer"
+import { Header } from "./header/Header"
+
 
 export const Expo = () => {
     return (
@@ -42,7 +43,7 @@ export const Expo = () => {
             <div className="backAnimated">
             <div className="expo unica">
                     <h1>Expo</h1>
-                    <h1>Técnica</h1>
+                    <h1>Técnica23</h1>
                     <h1>23</h1>
                 </div>
                 <div className='air air1'></div>
