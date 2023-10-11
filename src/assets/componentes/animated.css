@@ -3,7 +3,7 @@
     z-index: 1;
     position: relative;
     width: 100%;
-    min-height: calc(100vh - 180px);
+    min-height: calc(70vh - 180px);
     background: #3586ff;
     overflow: hidden;
     display: grid;
@@ -72,3 +72,28 @@
       background-position-x: -1000px;
     }
   }
+
+
+  @media  screen and (orientation : portrait) {
+    .backAnimated{
+      background-color: rgb(169, 148, 148);
+    }
+    .expo {
+      background-color: rgba(255, 0, 0, 0);
+      width: 80%;
+      line-height: 45px;
+      height: 280px;
+  
+      & h1 {
+          font-size: 40px;
+          color: white
+      }
+  
+      & h1:last-child {
+          font-size: 100px;
+          line-height: 80px;
+          color: white
+      }
+  }
+      
+    }

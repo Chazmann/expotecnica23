@@ -23,12 +23,33 @@
   font-weight: 700;
 }
 
-.bandideado {
+.bandideado{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  
+
+}
+
+.cardContainer {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  width: 90%;
-  gap: 20px;
-  justify-content: flex-start;
-  background-color: burlywood;
+  width: 100%;
+  gap: 14px;
+  justify-content: space-between;
+  
+}
+.filtros{
+  display: flex; gap: 24px; flex-direction: column;
+}
+
+@media  screen and (orientation : portrait) {
+.backAnimated{
+  background-color: red;
+}
+  h1{ }
+  
 }
