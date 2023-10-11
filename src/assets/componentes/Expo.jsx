@@ -1,6 +1,6 @@
 import { Footer } from "./footer/footer"
 import { Header } from "./header/Header"
-
+import { CardContainer } from "./CardContainer"
 
 export const Expo = () => {
     return (
@@ -52,6 +52,7 @@ export const Expo = () => {
                 <div className='air air4'></div>
                 
             </div>
+            <CardContainer />
             <Footer />
 
         </>

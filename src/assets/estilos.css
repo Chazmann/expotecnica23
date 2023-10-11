@@ -22,3 +22,13 @@
 .fw700 {
   font-weight: 700;
 }
+
+.bandideado {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
+  gap: 20px;
+  justify-content: flex-start;
+  background-color: burlywood;
+}
