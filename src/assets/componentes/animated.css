@@ -75,9 +75,7 @@
 
 
   @media  screen and (orientation : portrait) {
-    .backAnimated{
-      background-color: rgb(169, 148, 148);
-    }
+    
     .expo {
       background-color: rgba(255, 0, 0, 0);
       width: 80%;

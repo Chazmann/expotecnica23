@@ -1,0 +1,26 @@
+[
+  { "id" : 1,
+    "modalidad": "Informática",
+    "curso": "4°1°",
+    "proyecto": "Simulador de Vuelo",
+    "descrip": "Los alumnos elaboraron con 2 impresoras matriz de punto un simulador de vuelo con sensaciones gravitatorias incomparables",
+    "alumnos": "Fernando Alonso, Enzo Francescolli",
+    "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAZoB91LalI7uLVGQQW5WqNS0SEfAAZLto3GHengi8TqqP_TFuLjX_4fKrWJeV-NcbY2o&usqp=CAU"
+  },
+  { "id" : 2,
+    "modalidad": "Alimentos",
+    "curso": "4°4°",
+    "proyecto": "Simulador de Comida",
+    "descrip": "Los alumnos elaboraron con 2 impresoras matriz de punto un simulador de vuelo con sensaciones gravitatorias incomparables",
+    "alumnos": "Fernanda Alvez, Jimena Kamps",
+    "imgurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzpUmvwqNLNevVWmfxQQQKB9-GyiUPa-cVuQ&usqp=CAU"
+  },
+  { "id" : 3,
+    "modalidad": "Informática",
+    "curso": "7°1°",
+    "proyecto": "ALL School - Gestión Escolar",
+    "descrip": "Los alumnos un sistema de gestión integral escolar. Ahora disponible para celulares",
+    "alumnos": "Juan Pinardi, Luciano Brito",
+    "imgurl": "https://allschool.com.ar/img/img-general/new-icon.svg"
+  }
+]
