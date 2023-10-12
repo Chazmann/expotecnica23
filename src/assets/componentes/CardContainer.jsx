@@ -7,7 +7,7 @@ export const CardContainer = (props) => {
       <h2 className='unica'>{props.modalidad}</h2>
       <div className="cardContainer">
         {proyectos.map(proyecto =>
-           <Card key= {proyecto.id} modalidad={proyecto.modalidad} curso={proyecto.curso} imgurl={proyecto.imgurl} alumnos={proyecto.alumnos} descrip={proyecto.descrip} proy={proyecto.proyecto} />)}
+           <Card key= {proyecto.id} modalidad={proyecto.modalidad} curso={proyecto.curso} imgurl={proyecto.imgurl} alumnos={proyecto.alumnos} descrip={proyecto.descrip} proy={proyecto.proyecto} link={proyecto.url}/>)}
       </div>
 
 

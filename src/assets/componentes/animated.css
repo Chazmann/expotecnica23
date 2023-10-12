@@ -1,9 +1,8 @@
-
 .backAnimated {
     z-index: 1;
     position: relative;
     width: 100%;
-    min-height: calc(70vh - 180px);
+    min-height: calc(70vh - 190px);
     background: #3586ff;
     overflow: hidden;
     display: grid;

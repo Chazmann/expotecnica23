@@ -15,7 +15,8 @@ export const Card = (props) => {
             <div className="detallesProyecto titilium">
                 <h3>{props.proy}</h3>
                 <span>{props.descrip}</span>
-                <a className="btnLink">Ver más</a>
+                <h5>{props.alumnos}</h5>
+                <a href={props.link} className="btnLink" target='_blank'>Ver más</a>
             </div>
 
         </div>

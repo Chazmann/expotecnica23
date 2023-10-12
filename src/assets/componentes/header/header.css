@@ -23,14 +23,11 @@ header {
 .hover:hover {
     filter: drop-shadow(0 0 15px white);
     cursor: pointer;
-
 }
 
 .animado {
     transition: all 0.2s ease-in-out;
     animation: animacion 5s infinite;
-
-
 }
 .fecha {
     font-size: 1.8em!important;
@@ -39,7 +36,6 @@ header {
 @keyframes animacion {
     0% {
         transform: rotate(0deg);
-
         filter: drop-shadow(0 0 0px white);
     }
 
@@ -71,8 +67,6 @@ header {
     100% {
         transform: rotate(360deg);
     }
-
-
 }
 
 

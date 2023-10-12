@@ -1,3 +1,4 @@
+a{text-decoration: none;}
 .tarjeta {
     height: 450px;
    flex: 1 0 350px;
@@ -20,8 +21,7 @@
 .imgportada {
     height: 100%;
     width: 100%;
-    
-    background: #3586ff;
+    background: #3586ff7b;
 }
 
 .alimentos {
