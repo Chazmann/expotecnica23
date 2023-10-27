@@ -12,9 +12,9 @@ footer {
     gap: 10px;
     height: 100px;
     margin-top: 30px;
+    z-index: 22999999999999999;
+
 }
-
-
 .expo {
     background-color: rgba(255, 0, 0, 0);
     width: 80%;

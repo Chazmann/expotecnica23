@@ -1,14 +1,14 @@
+import { Footer } from "./footer/footer"
 
-
-import { Proyectos } from "./Proyectos"
+import { Gallery } from "./Gallery"
 import { WavesPresentacion } from "./WavesPresentacion"
 
-export const Expo = () => {
+export const Galeria = () => {
     return (
         <>
             
             <WavesPresentacion />
-            <Proyectos />
+            <Gallery />
             
 
         </>
