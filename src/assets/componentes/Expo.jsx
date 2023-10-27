@@ -14,3 +14,4 @@ export const Expo = () => {
         </>
     )
 }
+export default Expo

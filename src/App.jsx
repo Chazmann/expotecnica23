@@ -2,15 +2,12 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 
 import { WavyContainer, WavyLink } from "react-wavy-transitions";
 import { Galeria } from "./assets/componentes/Galeria";
-import { Expo } from "./assets/componentes/Expo";
+import Expo from "./assets/componentes/Expo";
 import { Footer } from "./assets/componentes/footer/footer";
 import '../src/assets/componentes/header/header.css'
 import logoExpo from '../src/assets/imgs/logoexpoblanco.svg'
 import logotexto from '../src/assets/imgs/logoexpotextoblanco.svg'
 
-const Home = () => <div>Home</div>;
-
-const Contact = () => <div>Contrract</div>;
 
 function App() {
   return (
@@ -23,13 +20,13 @@ function App() {
             <>
               <header>
                 <div>
-                <WavyLink to="/" color="#3586ff">
-                  <img className="hover animado" src={logoExpo} alt="" height={45} to="/"/>
+                <WavyLink to="/expotecnica23" color="#3586ff">
+                  <img className="hover animado" src={logoExpo} alt="" height={45} to="/expotecnica23"/>
                   </WavyLink>
                   <img className="hover ocultomobile" src={logotexto} alt="" height={30} />
                 </div>
                 <nav className='unica link'>
-                  <WavyLink to="/" color="#3586ff">
+                  <WavyLink to="/expotecnica23" color="#3586ff">
                     <div className="link">Proyectos</div>
                   </WavyLink>
                   <WavyLink direction="up" to="/galeria" color="#3586ff">
@@ -48,7 +45,7 @@ function App() {
             </>
           }
         >
-          <Route index element={<Expo />} />
+          <Route index path="/expotecnica23" element={<Expo />} />
           <Route path="galeria" element={<Galeria />} />
           <Route path="pimba" element={<Expo />} />
           <Route path="*" element={<div className="container unica"><br /><h2><center>404 - LA RUTA DESEADA NO ESTÁ DISPONIBLE <br /> <WavyLink to="/" color="#3586ff">
